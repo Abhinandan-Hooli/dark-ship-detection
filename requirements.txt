@@ -1,0 +1,10 @@
+streamlit
+ultralytics
+torch
+torchvision
+pandas
+numpy
+rasterio
+scipy
+scikit-learn
+Pillow
