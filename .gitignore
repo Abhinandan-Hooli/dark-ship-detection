@@ -1,6 +1,39 @@
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environments
 .venv/
-.git/
+venv/
+env/
+
+# Secrets
 .streamlit/secrets.toml
+.env
+.env.*
+
+# Logs
 *.log
+
+# Backup files
+*_backup.py
+*.bak
+*.old
+
+# Generated output
+outputs/
+runs/
+
+# Exclude old notebook
+notebooks/DarkShip_Main.ipynb
+
+# Exclude backup files
+*_backup.py
+
+# Exclude generated data and outputs
+data/ais/*.csv
+data/hf_test_images/
+data/sar_test/
+outputs/
+runs/
